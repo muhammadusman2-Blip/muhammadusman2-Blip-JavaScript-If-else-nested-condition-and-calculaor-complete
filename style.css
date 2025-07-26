@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    padding: 12px;
+    display: flex;
+    background-color: blue;
+    border-radius: 10px 10px 10px 10px;
+   
+}
+.calculator>form>input{
+    padding: 90px;
+}
+.button1>input{
+    padding: 9px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 40px;
+    transition: 0.5s;
+}
+.button1>:hover{
+    background: orange;
+    box-shadow: 40px 0px 100px orangered -40px 0px 100px orangered;
+}
+.display>input{
+    /* margin-left: 12px; */
+    width: 225px;
+    margin-left: 10px;
+    border-radius: 12px 10px 10px 10px;
+    height: 20px;
+    height: 40px;
+    font-size: 30px;
+}
+/* .button1>.equal{
+    width: 80px;
+} */
