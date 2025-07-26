@@ -14,7 +14,7 @@ else if(mark >=60 && mark <70){
 else if(mark >=50 && mark <60){
     alert("Grade D")
 }
-else if(mark <50){
+else if(mark >=1 && mark<50){
     alert("Fail")
 }
 else{

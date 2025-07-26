@@ -5,12 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: relative; */
 }
+
 .calculator{
     padding: 12px;
     display: flex;
     background-color: blue;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 30px 30px 30px 30px;
+    /* z-index: 90; */
    
 }
 .calculator>form>input{
@@ -25,9 +28,11 @@
     font-size: 20px;
     margin-left: 10px;
     width: 40px;
+    text-align: center;
     transition: 0.5s;
+
 }
-.button1>:hover{
+.button1>input:hover{
     background: orange;
     box-shadow: 40px 0px 100px orangered -40px 0px 100px orangered;
 }
@@ -40,6 +45,6 @@
     height: 40px;
     font-size: 30px;
 }
-/* .button1>.equal{
-    width: 80px;
-} */
+.button1>input.equal{
+    width: 100px;
+}
